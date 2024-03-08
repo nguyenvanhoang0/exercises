@@ -1,0 +1,30 @@
+.content_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .group {
+        margin-top: 70px;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+            background-color: antiquewhite;
+            transition: 0.4s;
+            cursor: pointer;
+
+
+            &:hover{
+                background-color: rgb(103, 194, 247);
+                transition: 0.4s;
+            }
+        }
+    }
+}

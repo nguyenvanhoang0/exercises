@@ -1,0 +1,30 @@
+header {
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+
+    &:hover {
+        background-color: rgb(234, 234, 234);
+    }
+    
+    .content_header {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            li {
+                padding: 10px 20px;
+                cursor: pointer;
+                border-radius: 4px;
+
+                &:hover {
+                    color: #214ae1;
+                    background-color: rgb(160, 200, 241);
+                }
+            }
+        }
+    }
+}

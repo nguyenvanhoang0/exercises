@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ExercisesComponent } from './components/exercises/exercises.component';
-import { HeaderComponent } from './shared/header/header.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { HeaderComponent } from './shared/main/header/header.component';
+import { FooterComponent } from './shared/main/footer/footer.component';
+import { LayoutMainComponent } from './shared/layout/layout-main/layout-main.component';
+import { SlideBasicComponent } from './shared/content/slide-basic/slide-basic.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     HomeComponent,
     ExercisesComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LayoutMainComponent,
+    SlideBasicComponent
   ],
   imports: [
     BrowserModule,

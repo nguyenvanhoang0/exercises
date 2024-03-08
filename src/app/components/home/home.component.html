@@ -1,1 +1,9 @@
-<p>home works!</p>
+<div class="content_home">
+    <div class="group">
+        <div class="item" *ngFor="let e of exercises" (click)="navigateToExerciseDetails(e.routerLink)">
+            {{e.name}}
+        </div>
+
+
+    </div>
+</div>

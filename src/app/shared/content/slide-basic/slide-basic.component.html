@@ -1,0 +1,7 @@
+<div class="center">
+   <div class="slide">
+    <div class="slide_content" *ngFor="let slide of slideContent" [style.z-index]="slide.zindex">
+        <img src="{{slide.img}}" alt="">
+    </div>
+   </div>
+</div>
