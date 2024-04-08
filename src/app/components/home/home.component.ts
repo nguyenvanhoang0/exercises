@@ -21,9 +21,9 @@ export class HomeComponent {
       routerLink: "SlideBasic",
     },
     {
-      name: "slide",
+      name: "TodoApp",
       type: "kkkk",
-      routerLink: "SlideBasic",
+      routerLink: "TodoApp",
     },
     
   ]

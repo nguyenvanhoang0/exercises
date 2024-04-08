@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container>div {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: bisque;
+
+    .job {
+        padding: 10px;
+        background-color: aquamarine;
+    }
+
+}

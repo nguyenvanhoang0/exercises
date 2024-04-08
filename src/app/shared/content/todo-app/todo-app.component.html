@@ -1,0 +1,12 @@
+<div class="container" (dragover)="onDragOver($event)">
+    <div class="do_not" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+        <div *ngFor="let job of jobs let i = index"  [class]="'job' + i" class="job">{{job.name}}</div>
+    </div>
+    <div class="doing" (dragover)="onDragOver($event)" (drop)="onDrop($event)"></div>
+    <div class="did" (dragover)="onDragOver($event)" (drop)="onDrop($event)"></div>
+  </div>
+  
+  <!-- <div class="job" draggable="true">Drag me!</div> -->
+  <!-- <div class="job" draggable="true">Drag me!!!!!</div> -->
+  <!-- <div *ngFor="let job of jobs let i = index"  [class]="'job' + i" class="job">{{job.name}}</div> -->
+  <div *ngFor="let job of jobs let i = index"  [class]="'job' + (i + 3)" class="job">{{job.name}}</div>
